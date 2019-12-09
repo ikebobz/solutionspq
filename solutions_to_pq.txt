@@ -1,0 +1,16 @@
+1	a	Discuss the traditional file processing system. (10 Marks)
+	b	Give five advantages the database approach has over file processing systems. (10 Marks)
+	c	Give a brief historical account of the evolution of Database systems. (5 Marks)
+ANSWER
+1a  
+      A File processing system in its simplest form consists of a program that stores/reads its data from a flat file.They are characterized by very tight coupling between program and data making them inflexible to changes in the underlying data structure. Data redundancy is also a negative feature of this system since different programs cannot share data and hence have to rely on compatible/readable copies of the same data 
+1b    
+      i. A well configured and normalized database eliminates redundancy
+      ii.Program-data independence is a desirable feature of DBMS while in a typical file processing system program design must factor in the underlying data  structure
+	  iii.Data consistency is a defining feature of Database Management Systems while this feature is almost difficult to maintain in a traditional FPS since data operations here are carried out independently on data that may exist in different formats cross multiple programs.
+	  iv.DBMS scale well with increase in data volumes while FPS are heavily impacted as data need increases due to the need to duplicate these volumes across different programs
+	  v.Ease of maintenance since all data management operations are directed at a single source rather than multiple sources.
+1c.
+      Today's complex data management systems started out as flat files that were used to store application data.This storage system were characterized by severe limitations which included high maintenance cost, insecurity, data duplication and they required extensive programming in third generation languages such as PASCAL,COBOL etc. 
+      Systems based on the Hierarchical data model came into the scene in the early 70's and were dominant right through to the early 80's.This model organizes files in a parent/child manner where each child must have at least a parent. They brought efficiency to search operations but were very difficult to implement
+      Network data models which were developed in parallel with Hierarchical models standardized in the early 70's and introduced desirable features as data integrity,independence and ease of access. In this architecture each file is either an owner or member.A member could belong to more than one owner 	  
