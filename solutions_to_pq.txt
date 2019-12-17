@@ -14,3 +14,11 @@ ANSWER
       Today's complex data management systems started out as flat files that were used to store application data.This storage system were characterized by severe limitations which included high maintenance cost, insecurity, data duplication and they required extensive programming in third generation languages such as PASCAL,COBOL etc. 
       Systems based on the Hierarchical data model came into the scene in the early 70's and were dominant right through to the early 80's.This model organizes files in a parent/child manner where each child must have at least a parent. They brought efficiency to search operations but were very difficult to implement
       Network data models which were developed in parallel with Hierarchical models standardized in the early 70's and introduced desirable features as data integrity,independence and ease of access. In this architecture each file is either an owner or member.A member could belong to more than one owner 	  
+
+2	a	Name the five phases of the traditional systems development life cycle, and explain the purpose and the deliverables of each phase.  (10 Marks)
+	b	Explain the differences between user views, a conceptual schema, and an internal schema as different views of the same database. (10 Marks)
+ANSWER
+2a     see table
+2b		USER VIEW: A user view is a restricted/incomplete perspective of a database content intended to facilitate a particular purpose or user activity.In addition to the objective of giving access to only what is relevant/needed for user operations, it is a security device aimed at protecting the database from reckless user activities
+		INTERNAL VIEW: A low-level representation of the database that describes the physical storage structure of the database i.e. it tells us what data is stored and how it is organized into tables, rows and columns
+		CONCEPTUAL VIEW: This view describes the whole structure of the database to a wider audience of stakeholders hiding details such as physical storage structures but instead focusing on the description of datatypes, entities and relationships etc.The very popular ERD diagram is a very good example of this view
