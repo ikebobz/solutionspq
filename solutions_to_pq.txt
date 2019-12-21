@@ -22,3 +22,5 @@ ANSWER
 2b		USER VIEW: A user view is a restricted/incomplete perspective of a database content intended to facilitate a particular purpose or user activity.In addition to the objective of giving access to only what is relevant/needed for user operations, it is a security device aimed at protecting the database from reckless user activities
 		INTERNAL VIEW: A low-level representation of the database that describes the physical storage structure of the database i.e. it tells us what data is stored and how it is organized into tables, rows and columns
 		CONCEPTUAL VIEW: This view describes the whole structure of the database to a wider audience of stakeholders hiding details such as physical storage structures but instead focusing on the description of datatypes, entities and relationships etc.The very popular ERD diagram is a very good example of this view
+3a		See table
+3b		Employee(EmployeeId,Name,Address,DOB)  Project(ProjectId,ProjectName,StartDate), Billing(EmployeeId,Projectid,Rate)
